@@ -13,7 +13,7 @@ namespace CodeFirstApproach.DatabaseContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=SCH-EBHSQLTST-01.EvansDel.com;Initial Catalog=cfoTest;Persist Security Info=True; User Id=sa;Password=TA88id!;Integrated Security=True; Trusted_Connection=False; TrustServerCertificate=True; Encrypt=True;");
+            optionsBuilder.UseSqlServer("Server=TESTSER;Initial Catalog=cfoTest;Persist Security Info=True; User Id=sa;Password=TSRP!;Integrated Security=True; Trusted_Connection=False; TrustServerCertificate=True; Encrypt=True;");
         }
     }
 }
